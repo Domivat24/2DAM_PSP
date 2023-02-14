@@ -1,6 +1,9 @@
-package Tema4.MulticastSocket;
+package Tema4.T4S3Exemples.T4S3Ex2MulticastSocketUDP;
 
-import java.net.*;
+import java.net.DatagramPacket;
+import java.net.InetAddress;
+import java.net.InetSocketAddress;
+import java.net.MulticastSocket;
 import java.util.Random;
 
 public class HostReceptorGrupMulticastSocket {
